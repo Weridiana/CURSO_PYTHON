@@ -86,11 +86,11 @@
 # 'novas_matriculas' valendo 42. Crie a variável 'faturamento_projetado' que 
 # multiplique os dois valores e exiba o resultado para o cliente.
 
-print ("\nProjeção de Faturamento para o Próximo Mês")
-mensalidade_padrao = 850.50
-novas_matriculas = 42
-faturamento_projetado = mensalidade_padrao * novas_matriculas
-print ("\nPara o total de", novas_matriculas, "novas matrículas e mensalidade de R$", mensalidade_padrao, ", o Faturamento Projetado é:\n\tR$", int(faturamento_projetado), "\n")
+# print ("\nProjeção de Faturamento para o Próximo Mês")
+# mensalidade_padrao = 850.50
+# novas_matriculas = 42
+# faturamento_projetado = mensalidade_padrao * novas_matriculas
+# print ("\nPara o total de", novas_matriculas, "novas matrículas e mensalidade de R$", mensalidade_padrao, ", o Faturamento Projetado é:\n\tR$", int(faturamento_projetado), "\n")
 
 # ==============================================================================
 # DESAFIO 5: Divisão de Turmas (Operador de Divisão /)
@@ -102,7 +102,9 @@ print ("\nPara o total de", novas_matriculas, "novas matrículas e mensalidade d
 # valendo 5. Calcule e imprima quantos grupos serão formados usando a divisão (/).
 # (Note que no Python, a divisão normal sempre retorna um número quebrado - float).
 
-# Código:
+# total_alunos_turma = 45
+# tamanho_grupo_ideal = 5
+# print("A divisão do total de alunos pela quantidade ideal de membros é de", int(total_alunos_turma/tamanho_grupo_ideal), "grupos.")
 
 
 # ==============================================================================
@@ -116,7 +118,12 @@ print ("\nPara o total de", novas_matriculas, "novas matrículas e mensalidade d
 # programar a variável 'tablets_sobra' e avisar quantos ficam na reserva da TI. 
 # Imprima ambos os resultados.
 
-# Código:
+# divisao_tablets = (100/3)
+# tablets_sobra = 100%3
+# print (f"Cada sala deve receber {divisao_tablets} tablets. Permanece na reserva da TI: {tablets_sobra} tablet(s).")
+
+# dica - o professor utiliza variáveis para armazenar o 3 (divisor), a quantidade 100 (total de tablets), 
+# além das variáveis que usei para calcular a divisão inteira e o resto. Isso é boa prática! 
 
 
 # ==============================================================================
@@ -129,8 +136,9 @@ print ("\nPara o total de", novas_matriculas, "novas matrículas e mensalidade d
 # dobra anualmente, calcule o tamanho necessário para daqui a 4 anos elevando 
 # 2 à 4ª potência (**). Multiplique o resultado pelo armazenamento atual e imprima.
 
-# Código:
-
+# armazenamento_atual_tb = 3
+# potencia = 2**4
+# print ("Daqui a 4 anos, será necessário o espaço de", (potencia*armazenamento_atual_tb), "de armazanamento.")
 
 # ==============================================================================
 # DESAFIO 8: O MVP do Boletim Digital (Projeto Final da Aula 3)
@@ -149,4 +157,9 @@ print ("\nPara o total de", novas_matriculas, "novas matrículas e mensalidade d
 # 4. Exiba o resultado formatado (f-string) na tela para o professor: 
 #    "Sistema JWC: O aluno [nome] fechou o ano com média [media]".
 
-# Código:
+# nome_aluno = input("Digite o nome do aluno:")
+# nota1 = float(input ("Informe a primeira nota:"))
+# nota2 = float(input ("Informe a segunda nota:"))
+# nota3 = float(input ("Informe a terceira nota:"))
+# media = (nota1+nota2+nota3)/3
+# print (f"Sistema JWC: O aluno {nome_aluno} fechou o ano com média {media:.2f}.")
